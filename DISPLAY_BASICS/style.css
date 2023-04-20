@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-shadow: none;
+}
+body{
+    display: flex;
+}
+div,p,span,a{
+    height: 40px;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+}
+div{
+    background-color: #e74c3c;
+}
+p{
+    background-color: #9b59b6;
+}
+span{
+    background-color: #3498db;
+}
+a{
+    background-color: #2ecc71;
+}
