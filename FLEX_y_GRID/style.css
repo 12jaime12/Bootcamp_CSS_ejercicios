@@ -108,12 +108,14 @@ body{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px;
+    margin-top: 10px;
 }
 .caja_flex{
     margin: 10px;
-    max-width: 300px;
-    max-height: 450px;
+    max-width: 250px;
+    max-height: 400px;
+    
 }
 .caja1{
     width: 100%;
@@ -140,12 +142,12 @@ body{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-auto-rows: 1fr;
-    gap: 1rem;
+    gap: 40px;
     padding: 1rem;
     list-style: none;
     align-items: center;
     justify-content: center;
-    margin: 0 2.5vw ;
+    margin: 0 5vw ;
 }
 .caja_grid{
     margin: 10px;
