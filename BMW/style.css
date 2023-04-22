@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+/*------------------------header------------------------*/
+header{
+    min-height: 80vh;
+    background-image: url(assets/bmw-m-series-x5-m-sp-desktop.jpg);
+    background-position: center;
+    
+}
+.logo{
+    width: 50px;
+    height: 50px;
+
+}
+nav{
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid white 1px;
+}
+.opciones1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.opciones2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+nav a{
+    color: white;
+}
+nav li{
+    margin: 1rem;
+}
+.info{
+    margin-left: 3rem;
+    position: relative;
+    top: 25rem;
+}
+.info button{
+    color: white;
+    background-color: #1c69d4;
+    padding: 1rem 5rem;
+    border: none;
+}
+.info h1{
+    margin-bottom: 0.5rem;
+}
+.info h3{
+    margin-bottom: 0.5rem;
+}
+/*---------------------content-----------------------*/
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+}
+.menu{
+    min-width: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    border-bottom: solid gray 1px;
+}
+.menu li{
+    margin: 2vh;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: gray;
+}
+/*---------grid-----------*/
+.grid {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px , 1fr));
+    width: 100%;
+}
+.grid img{
+    width: 100%;
+}
+/*-----------------------footer-----------------------*/
+.op_footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    min-height: 30vh;
+}
+.op_footer li{
+    list-style-type: none;
+    background-color: rgba(172, 170, 170, 0.491);
+    width: 20vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.op_footer li a{
+    text-decoration: none;
+    color: black;
+}
