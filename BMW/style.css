@@ -25,7 +25,7 @@ header{
     min-height: 80vh;
     background-image: url(assets/bmw-m-series-x5-m-sp-desktop.jpg);
     background-position: center;
-    
+    background-size: cover;
 }
 .logo{
     width: 50px;

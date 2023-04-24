@@ -141,6 +141,7 @@ content{
     padding: 0.8rem 1.5rem;
     color: var(--primary-color);
     border: solid var(--primary-color) 2px;
+    z-index: 1;
 }
 /*-------------------------footer-----------------------*/
 footer{
